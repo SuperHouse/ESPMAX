@@ -1,9 +1,7 @@
 ESP Max Prototyping Board
 =========================
 
-Copyright 2016 SuperHouse Automation Pty Ltd  
-SuperHouse site:  www.superhouse.tv  
-SuperHouse email: info@superhouse.tv  
+Copyright 2016 SuperHouse Automation Pty Ltd www.superhouse.tv  
 
 Prototyping board for IoT projects using the ESP8266 microcontroller
 on the ESP-12E module.

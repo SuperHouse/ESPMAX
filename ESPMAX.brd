@@ -6,34 +6,34 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="15" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="3" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="3" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
@@ -49,7 +49,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="3" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -1217,43 +1217,148 @@ design rules under a new name.</description>
 <element name="H2" library="freetronics-original" package="1X08" value="" x="47.56" y="28.67" smashed="yes" rot="R270">
 <attribute name="VALUE" x="44.385" y="29.94" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="LED1" library="freetronics-jon" package="LED-0603" value="BLUE" x="22.86" y="46.698" rot="R180"/>
-<element name="R25" library="freetronics-jon" package="0603" value="2k2" x="24.49" y="42.38" rot="R270"/>
-<element name="C1" library="freetronics-jon" package="0805" value="10uF" x="36.068" y="22.822" rot="R180"/>
-<element name="IC1" library="freetronics-jon" package="ESP12E" value="ESP12ESMT" x="36.322" y="12.154" rot="MR90"/>
-<element name="R1" library="freetronics-jon" package="0603" value="100k" x="29.972" y="15.456" rot="R180"/>
-<element name="R2" library="freetronics-jon" package="0603" value="220k" x="29.972" y="17.996"/>
-<element name="R3" library="freetronics-jon" package="0603" value="10k" x="36.068" y="17.996"/>
-<element name="R4" library="freetronics-jon" package="0603" value="10k" x="36.068" y="12.916"/>
-<element name="C2" library="freetronics-jon" package="0603" value="100nF" x="29.972" y="10.376" rot="R180"/>
-<element name="R5" library="freetronics-jon" package="0603" value="10k" x="36.068" y="10.376" rot="R180"/>
-<element name="R6" library="freetronics-jon" package="0603" value="10k" x="36.068" y="20.282"/>
-<element name="C3" library="freetronics-jon" package="0603" value="100nF" x="36.068" y="15.456" rot="R180"/>
-<element name="R7" library="freetronics-jon" package="0603" value="10k" x="29.972" y="12.916" rot="R180"/>
-<element name="F1" library="rcl" package="L1812" value="500mA PTC 1812" x="46.736" y="39.332" rot="R270"/>
-<element name="Z1" library="freetronics" package="0603" value="PGB1010603" x="38.1" y="41.872" rot="R180"/>
-<element name="Z2" library="freetronics" package="0603" value="PGB1010603" x="41.91" y="41.872"/>
-<element name="L1" library="freetronics-master-v1" package="0805-LARGE" value="0805 INDUCTOR" x="47.498" y="44.158"/>
-<element name="P1" library="freetronics-jon" package="USB-MICROB-MB05PMXX" value="USB-6PSMT" x="40.64" y="48.476" rot="R180"/>
-<element name="IC2" library="freetronics-jon" package="QFN-28" value="CP2102" x="41.402" y="31.712"/>
-<element name="C5" library="freetronics-jon" package="0603" value="100nF" x="40.894" y="24.6" rot="R270"/>
-<element name="S1" library="freetronics-jon" package="TACTILE_SWITCH_SMD_2PIN_TINY" value="RESET" x="24.524" y="4.7" rot="R270"/>
-<element name="R8" library="freetronics-jon" package="0603" value="1k" x="35.052" y="30.696"/>
-<element name="R9" library="freetronics-jon" package="0603" value="1k" x="35.052" y="32.22"/>
-<element name="C8" library="freetronics-jon" package="C0805" value="10uF 10V 0805" x="29.845" y="33.85"/>
-<element name="C7" library="freetronics-master-v1" package="0603" value="100nF 0603" x="25.4" y="33.85" rot="R180"/>
-<element name="C6" library="freetronics-jon" package="C0805" value="10uF 10V 0805" x="33.528" y="38.57" rot="R180"/>
-<element name="IC3" library="freetronics-luke" package="SOT-223" value="LD111733" x="41.91" y="38.57" rot="MR90"/>
-<element name="JP1" library="freetronics-jon" package="1X05_NO_SILK" value="GND" x="16.764" y="3.518" rot="R180"/>
-<element name="JP2" library="freetronics-jon" package="1X05_NO_SILK" value="3V3" x="16.764" y="46.698" rot="R180"/>
-<element name="D1" library="freetronics-original" package="SOD-323" value="B5819W" x="37.592" y="26.378" rot="R180"/>
-<element name="D2" library="freetronics-original" package="SOD-323" value="B5819W" x="33.02" y="26.378" rot="R180"/>
-<element name="C9" library="freetronics-jon" package="0603" value="100nF" x="33.02" y="28.41" rot="R180"/>
-<element name="JP4" library="freetronics-jon" package="1X16_NO_SILK" value="M16NO_SILK" x="19.304" y="44.158" rot="R270"/>
-<element name="IC4" library="freetronics-luke" package="SOT-223" value="LD111750" x="29.21" y="38.57" rot="MR90"/>
-<element name="C10" library="freetronics-jon" package="C0805" value="10uF 10V 0805" x="28.194" y="38.57" rot="R180"/>
-<element name="JP3" library="freetronics-jon" package="SCREWTERMINAL-3.5MM-2" value="VIN" x="30.861" y="43.65" rot="R180"/>
-<element name="JP5" library="freetronics-jon" package="1X03" value="PWR_SOURCE" x="34.544" y="48.26" rot="R270"/>
+<element name="LED1" library="freetronics-jon" package="LED-0603" value="BLUE" x="22.86" y="46.698" smashed="yes" rot="R180">
+<attribute name="NAME" x="23.749" y="46.1392" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="21.59" y="47.3328" size="0.8128" layer="27"/>
+</element>
+<element name="R25" library="freetronics-jon" package="0603" value="2k2" x="24.49" y="42.38" smashed="yes" rot="R270">
+<attribute name="NAME" x="24.998" y="43.269" size="0.4064" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="23.406" y="43.8448" size="0.8128" layer="27" font="vector"/>
+</element>
+<element name="C1" library="freetronics-jon" package="0805" value="10uF" x="36.068" y="22.822" smashed="yes" rot="R180">
+<attribute name="NAME" x="36.83" y="21.9965" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="35.052" y="23.533" size="0.8128" layer="27"/>
+</element>
+<element name="IC1" library="freetronics-jon" package="ESP12E" value="ESP12ESMT" x="36.322" y="12.154" smashed="yes" rot="MR90">
+<attribute name="NAME" x="37.472" y="8.074" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="34.472" y="8.074" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="R1" library="freetronics-jon" package="0603" value="100k" x="29.972" y="15.456" smashed="yes" rot="R180">
+<attribute name="NAME" x="30.861" y="14.948" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="28.702" y="16.0908" size="0.8128" layer="27" font="vector"/>
+</element>
+<element name="R2" library="freetronics-jon" package="0603" value="220k" x="29.972" y="17.996" smashed="yes">
+<attribute name="NAME" x="29.083" y="18.504" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="28.702" y="18.5548" size="0.8128" layer="27" font="vector"/>
+</element>
+<element name="R3" library="freetronics-jon" package="0603" value="10k" x="36.068" y="17.996" smashed="yes">
+<attribute name="NAME" x="35.179" y="18.504" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="35.052" y="18.5548" size="0.8128" layer="27" font="vector"/>
+</element>
+<element name="R4" library="freetronics-jon" package="0603" value="10k" x="36.068" y="12.916" smashed="yes">
+<attribute name="NAME" x="35.179" y="13.424" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="35.052" y="13.4748" size="0.8128" layer="27" font="vector"/>
+</element>
+<element name="C2" library="freetronics-jon" package="0603" value="100nF" x="29.972" y="10.376" smashed="yes" rot="R180">
+<attribute name="NAME" x="30.861" y="9.868" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="28.448" y="11.0108" size="0.8128" layer="27" font="vector"/>
+</element>
+<element name="R5" library="freetronics-jon" package="0603" value="10k" x="36.068" y="10.376" smashed="yes" rot="R180">
+<attribute name="NAME" x="36.957" y="9.868" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="35.306" y="11.0108" size="0.8128" layer="27" font="vector"/>
+</element>
+<element name="R6" library="freetronics-jon" package="0603" value="10k" x="36.068" y="20.282" smashed="yes">
+<attribute name="NAME" x="35.179" y="20.79" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="35.052" y="20.8408" size="0.8128" layer="27" font="vector"/>
+</element>
+<element name="C3" library="freetronics-jon" package="0603" value="100nF" x="36.068" y="15.456" smashed="yes" rot="R180">
+<attribute name="NAME" x="36.957" y="14.948" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="34.544" y="16.0908" size="0.8128" layer="27" font="vector"/>
+</element>
+<element name="R7" library="freetronics-jon" package="0603" value="10k" x="29.972" y="12.916" smashed="yes" rot="R180">
+<attribute name="NAME" x="30.861" y="12.408" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="29.21" y="13.5508" size="0.8128" layer="27" font="vector"/>
+</element>
+<element name="F1" library="rcl" package="L1812" value="500mA PTC 1812" x="46.736" y="39.332" smashed="yes" rot="R270">
+<attribute name="NAME" x="48.641" y="41.237" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="40.551" y="38.481" size="0.8128" layer="27"/>
+</element>
+<element name="Z1" library="freetronics" package="0603" value="PGB1010603" x="38.1" y="41.872" smashed="yes" rot="R180">
+<attribute name="NAME" x="38.989" y="41.11" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="34.036" y="42.837" size="0.8128" layer="27" font="vector"/>
+</element>
+<element name="Z2" library="freetronics" package="0603" value="PGB1010603" x="41.91" y="41.872" smashed="yes">
+<attribute name="NAME" x="41.021" y="42.634" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="39.624" y="40.475" size="0.8128" layer="27" font="vector"/>
+</element>
+<element name="L1" library="freetronics-master-v1" package="0805-LARGE" value="0805 INDUCTOR" x="47.498" y="44.158" smashed="yes">
+<attribute name="NAME" x="46.736" y="44.9835" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="43.434" y="44.793" size="0.8128" layer="27"/>
+</element>
+<element name="P1" library="freetronics-jon" package="USB-MICROB-MB05PMXX" value="USB-6PSMT" x="40.64" y="48.476" smashed="yes" rot="R180">
+<attribute name="NAME" x="42.24" y="48.826" size="0.762" layer="25" rot="R180"/>
+<attribute name="VALUE" x="42.545" y="50.651" size="0.762" layer="27" rot="R180"/>
+</element>
+<element name="IC2" library="freetronics-jon" package="QFN-28" value="CP2102" x="41.402" y="31.712" smashed="yes"/>
+<element name="C5" library="freetronics-jon" package="0603" value="100nF" x="40.894" y="24.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="41.402" y="25.489" size="0.4064" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="41.44" y="24.1808" size="0.8128" layer="27" font="vector"/>
+</element>
+<element name="S1" library="freetronics-jon" package="TACTILE_SWITCH_SMD_2PIN_TINY" value="RESET" x="24.524" y="4.7" smashed="yes" rot="R270"/>
+<element name="R8" library="freetronics-jon" package="0603" value="1k" x="35.052" y="30.696" smashed="yes">
+<attribute name="NAME" x="34.163" y="31.204" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="35.052" y="29.2228" size="0.8128" layer="27" font="vector"/>
+</element>
+<element name="R9" library="freetronics-jon" package="0603" value="1k" x="35.052" y="32.22" smashed="yes">
+<attribute name="NAME" x="34.163" y="32.728" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="35.052" y="32.7788" size="0.8128" layer="27" font="vector"/>
+</element>
+<element name="C8" library="freetronics-jon" package="C0805" value="10uF 10V 0805" x="29.845" y="33.85" smashed="yes">
+<attribute name="NAME" x="28.575" y="35.12" size="1.27" layer="25"/>
+<attribute name="VALUE" x="27.813" y="34.866" size="0.8128" layer="27"/>
+</element>
+<element name="C7" library="freetronics-master-v1" package="0603" value="100nF 0603" x="25.4" y="33.85" smashed="yes" rot="R180">
+<attribute name="NAME" x="26.289" y="33.342" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="19.812" y="34.2728" size="0.8128" layer="27" font="vector"/>
+</element>
+<element name="C6" library="freetronics-jon" package="C0805" value="10uF 10V 0805" x="33.528" y="38.57" smashed="yes" rot="R180">
+<attribute name="NAME" x="34.798" y="37.3" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="30.734" y="39.662" size="0.8128" layer="27"/>
+</element>
+<element name="IC3" library="freetronics-luke" package="SOT-223" value="LD111733" x="41.91" y="38.57" smashed="yes" rot="MR90">
+<attribute name="NAME" x="48.3108" y="34.76" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="46.9392" y="34.76" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="JP1" library="freetronics-jon" package="1X05_NO_SILK" value="GND" x="16.764" y="3.518" smashed="yes" rot="R180">
+<attribute name="NAME" x="18.1102" y="1.6892" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="6.604" y="1.181" size="1.27" layer="27"/>
+</element>
+<element name="JP2" library="freetronics-jon" package="1X05_NO_SILK" value="3V3" x="16.764" y="46.698" smashed="yes" rot="R180">
+<attribute name="NAME" x="18.1102" y="44.8692" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="8.89" y="47.663" size="1.27" layer="27"/>
+</element>
+<element name="D1" library="freetronics-original" package="SOD-323" value="B5819W" x="37.592" y="26.378" smashed="yes" rot="R180">
+<attribute name="NAME" x="38.481" y="25.362" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="36.068" y="27.089" size="0.8128" layer="27"/>
+</element>
+<element name="D2" library="freetronics-original" package="SOD-323" value="B5819W" x="33.02" y="26.378" smashed="yes" rot="R180">
+<attribute name="NAME" x="33.909" y="25.362" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="30.48" y="26.835" size="0.8128" layer="27"/>
+</element>
+<element name="C9" library="freetronics-jon" package="0603" value="100nF" x="33.02" y="28.41" smashed="yes" rot="R180">
+<attribute name="NAME" x="33.909" y="27.902" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="29.972" y="28.7908" size="0.8128" layer="27" font="vector"/>
+</element>
+<element name="JP4" library="freetronics-jon" package="1X16_NO_SILK" value="M16NO_SILK" x="19.304" y="44.158" smashed="yes" rot="R270">
+<attribute name="NAME" x="21.1328" y="45.5042" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="16.129" y="45.428" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="IC4" library="freetronics-luke" package="SOT-223" value="LD111750" x="29.21" y="38.57" smashed="yes" rot="MR90">
+<attribute name="NAME" x="35.6108" y="34.76" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="34.2392" y="34.76" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="C10" library="freetronics-jon" package="C0805" value="10uF 10V 0805" x="28.194" y="38.57" smashed="yes" rot="R180">
+<attribute name="NAME" x="29.464" y="37.3" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="22.098" y="39.662" size="0.8128" layer="27"/>
+</element>
+<element name="JP3" library="freetronics-jon" package="SCREWTERMINAL-3.5MM-2" value="VIN" x="30.861" y="43.65" smashed="yes" rot="R180">
+<attribute name="NAME" x="32.131" y="41.11" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="32.131" y="42.38" size="0.4064" layer="27" rot="R180"/>
+</element>
+<element name="JP5" library="freetronics-jon" package="1X03" value="PWR_SOURCE" x="34.544" y="48.26" smashed="yes" rot="R270">
+<attribute name="NAME" x="36.3728" y="49.6062" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="27.94" y="46.609" size="0.8128" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="S$2">
